@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ffmpeg">
+      <UniqueIdentifier>{5dff4871-d0f8-4d7a-a79e-bd0041d9dbd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="aac">
+      <UniqueIdentifier>{d1b6150a-6ad7-4f9c-a333-3fab0f41b5f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="aac\g7xx">
+      <UniqueIdentifier>{d92ca14a-f000-4579-8422-dc8b3ccc0366}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LibVideoReader.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LibVideoWriter.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmpeg\AVmp4Reader.h">
+      <Filter>ffmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmpeg\AVmp4Writer.h">
+      <Filter>ffmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmpeg\Sps.h">
+      <Filter>ffmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="aac\AVfaac.h">
+      <Filter>aac</Filter>
+    </ClInclude>
+    <ClInclude Include="aac\AVg726.h">
+      <Filter>aac</Filter>
+    </ClInclude>
+    <ClInclude Include="aac\AVg726ToAac.h">
+      <Filter>aac</Filter>
+    </ClInclude>
+    <ClInclude Include="aac\g7xx\g711.h">
+      <Filter>aac\g7xx</Filter>
+    </ClInclude>
+    <ClInclude Include="aac\g7xx\g726.h">
+      <Filter>aac\g7xx</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LibVideoReader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LibVideoWriter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\AVmp4Reader.cpp">
+      <Filter>ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\AVmp4Writer.cpp">
+      <Filter>ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\Sps.cpp">
+      <Filter>ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="aac\AVfaac.cpp">
+      <Filter>aac</Filter>
+    </ClCompile>
+    <ClCompile Include="aac\AVg726.cpp">
+      <Filter>aac</Filter>
+    </ClCompile>
+    <ClCompile Include="aac\AVg726ToAac.cpp">
+      <Filter>aac</Filter>
+    </ClCompile>
+    <ClCompile Include="aac\g7xx\g726.cpp">
+      <Filter>aac\g7xx</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
